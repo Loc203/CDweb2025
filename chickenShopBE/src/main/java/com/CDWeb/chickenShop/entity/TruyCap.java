@@ -16,11 +16,12 @@ import java.util.List;
 @Table(name = "truycap")
 public class TruyCap {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "maTC")
     private Integer maTC;
 
     @Column(name = "tinhTrang")
-    private String tinhTrang = "Chưa xác thực";
+    private String tinhTrang;
 
     @OneToMany(mappedBy = "truyCap", fetch = FetchType.LAZY)
     private List<KhachHang> khachHangs;

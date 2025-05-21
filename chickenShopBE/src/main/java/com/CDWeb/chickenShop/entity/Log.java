@@ -1,5 +1,6 @@
 package com.CDWeb.chickenShop.entity;
 
+import com.CDWeb.chickenShop.enums.LogLevels;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -16,25 +17,27 @@ import java.time.LocalDateTime;
 @Table(name = "log")
 public class Log {
     @Id
-    @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
+    @Column(name = "id")
+    private int id;
 
+    @Enumerated(EnumType.STRING)
     @Column(name = "level")
-    private String level = "0";
+    private LogLevels logLevels;
 
     @Column(name = "ip")
-    private String ip = "0";
+    private String ip;
 
     @Column(name = "address")
-    private String address = "0";
+    private String address;
 
-    @Column(name = "beforeValue", columnDefinition = "TEXT")
+    @Column(name = "beforeValue")
     private String beforeValue;
 
-    @Column(name = "afterValue", columnDefinition = "TEXT")
+    @Column(name = "afterValue")
     private String afterValue;
 
     @Column(name = "createAt")
     private LocalDateTime createAt;
+
 }

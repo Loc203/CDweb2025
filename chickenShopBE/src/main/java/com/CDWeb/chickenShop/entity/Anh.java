@@ -6,16 +6,22 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Entity
+import java.io.Serializable;
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
+@Entity
 @Table(name = "anh")
-public class Anh {
+public class Anh implements Serializable {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "maAnh")
-    private Integer maAnh;
+    private int maAnh;
+
+    @Column(name = "maSP")
+    private Integer maSP;
 
     @Column(name = "duongDan")
     private String duongDan;
@@ -23,7 +29,7 @@ public class Anh {
     @Column(name = "chuThich")
     private String chuThich;
 
-    @ManyToOne
-    @JoinColumn(name = "maSP", referencedColumnName = "maSP")
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "maSP", referencedColumnName = "maSP", insertable = false, updatable = false)
     private SanPham sanPham;
 }

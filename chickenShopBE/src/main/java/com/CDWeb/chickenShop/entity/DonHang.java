@@ -18,11 +18,10 @@ import java.util.List;
 public class DonHang {
     @Id
     @Column(name = "maDH")
-    private Integer maDH;
+    private int maDH;
 
-    @ManyToOne
-    @JoinColumn(name = "maKH", referencedColumnName = "maKH")
-    private KhachHang khachHang;
+    @Column(name = "maKH")
+    private Integer maKH;
 
     @Column(name = "diaChiNhanHang")
     private String diaChiNhanHang;
@@ -48,6 +47,8 @@ public class DonHang {
     @Column(name = "signature", columnDefinition = "TEXT")
     private String signature;
 
-    @OneToMany(mappedBy = "donHang", fetch = FetchType.LAZY)
-    private List<ChiTietDonHang> chiTietDonHangs;
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "maKH", referencedColumnName = "maKH", insertable = false, updatable = false)
+    private KhachHang khachHang;
+
 }

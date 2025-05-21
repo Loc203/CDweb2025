@@ -15,11 +15,13 @@ import java.util.List;
 @Data
 @Table(name = "sanpham")
 public class SanPham {
-    @Id
-    @Column(name = "maSP")
-    private Integer maSP;
 
-    @Column(name = "tenSP")
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "maSP")
+    private int maSP;
+
+    @Column(name = "tenSP", length = 50)
     private String tenSP;
 
     @Column(name = "giaGoc")
@@ -31,20 +33,14 @@ public class SanPham {
     @Column(name = "soLuongTonKho")
     private Integer soLuongTonKho;
 
-    @Column(name = "moTa")
+    @Column(name = "moTa", length = 100)
     private String moTa;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "maTL", referencedColumnName = "maTL")
     private TheLoai theLoai;
 
-    @ManyToOne
+    @OneToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "maAnh", referencedColumnName = "maAnh")
     private Anh anh;
-
-    @OneToMany(mappedBy = "sanPham", fetch = FetchType.LAZY)
-    private List<ChiTietDonHang> chiTietDonHangs;
-
-    @OneToMany(mappedBy = "sanPham", fetch = FetchType.LAZY)
-    private List<Anh> anhs;
 }

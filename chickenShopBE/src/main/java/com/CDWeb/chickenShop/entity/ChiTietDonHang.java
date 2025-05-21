@@ -6,6 +6,8 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.io.Serializable;
+
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor
@@ -14,21 +16,27 @@ import lombok.NoArgsConstructor;
 @Table(name = "chitiet_donhang")
 public class ChiTietDonHang {
     @Id
-    @ManyToOne
-    @JoinColumn(name = "maDH", referencedColumnName = "maDH")
-    private DonHang donHang;
+    @Column(name = "maDH")
+    private int maDH;
 
     @Id
-    @ManyToOne
-    @JoinColumn(name = "maSP", referencedColumnName = "maSP")
-    private SanPham sanPham;
+    @Column(name = "maSP")
+    private int maSP;
 
     @Column(name = "soLuongDatHang")
     private Integer soLuongDatHang;
 
     @Column(name = "thueVAT", nullable = false)
-    private Double thueVAT = 0.1;
+    private double thueVAT = 0.1;
 
     @Column(name = "tongTien", nullable = false)
-    private Double tongTien;
+    private double tongTien;
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "maDH", referencedColumnName = "maDH", insertable = false, updatable = false)
+    private DonHang donHang;
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "maSP", referencedColumnName = "maSP", insertable = false, updatable = false)
+    private SanPham sanPham;
 }

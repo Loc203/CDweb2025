@@ -16,27 +16,27 @@ import java.time.LocalDateTime;
 @Table(name = "nguyenlieu")
 public class NguyenLieu {
     @Id
-    @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
+    @Column(name = "id")
+    private int id;
 
     @Column(name = "nguyenlieu")
-    private String nguyenLieu;
+    private String nguyenlieu;
 
     @Column(name = "soluong")
-    private Integer soLuong;
+    private Integer soluong;
 
     @Column(name = "noidung")
-    private String noiDung;
+    private String noidung;
 
     @Column(name = "loai")
     private String loai;
 
     @Column(name = "thoigian")
-    private LocalDateTime thoiGian;
+    private LocalDateTime thoigian;
 
     @Column(name = "donvi")
-    private String donVi;
+    private String donvi;
 
     @Column(name = "gia")
     private Double gia;

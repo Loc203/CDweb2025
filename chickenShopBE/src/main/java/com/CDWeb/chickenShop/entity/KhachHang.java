@@ -17,9 +17,9 @@ import java.util.List;
 @Table(name = "khachhang")
 public class KhachHang {
     @Id
-    @Column(name = "maKH")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer maKH;
+    @Column(name = "maKH")
+    private int maKH;
 
     @Column(name = "tenKH")
     private String tenKH;
@@ -37,14 +37,13 @@ public class KhachHang {
     private String gioiTinh;
 
     @Column(name = "ngaySinh")
-    private LocalDate ngaySinh = LocalDate.of(2000, 1, 1);
+    private LocalDate ngaySinh;
 
     @Column(name = "diaChi")
     private String diaChi;
 
-    @ManyToOne
-    @JoinColumn(name = "maTC", referencedColumnName = "maTC")
-    private TruyCap truyCap;
+    @Column(name = "maTC")
+    private int maTC = 0;
 
     @Column(name = "code")
     private String code;
@@ -52,6 +51,11 @@ public class KhachHang {
     @Column(name = "picture")
     private String picture;
 
-    @OneToMany(mappedBy = "khachHang", fetch = FetchType.LAZY)
-    private List<DonHang> donHangs;
+    @Column(name = "alertKey")
+    private int alertKey;
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "maTC", referencedColumnName = "maTC", insertable = false, updatable = false)
+    private TruyCap truyCap;
+
 }

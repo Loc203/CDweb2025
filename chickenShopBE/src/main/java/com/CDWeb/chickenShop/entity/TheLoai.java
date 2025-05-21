@@ -16,12 +16,10 @@ import java.util.List;
 @Table(name = "theloai")
 public class TheLoai {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "maTL")
-    private Integer maTL;
+    private int maTL;
 
-    @Column(name = "tenTL")
+    @Column(name = "tenTL", length = 255)
     private String tenTL;
-
-    @OneToMany(mappedBy = "theLoai", fetch = FetchType.LAZY)
-    private List<SanPham> sanPhams;
 }

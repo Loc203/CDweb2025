@@ -6,6 +6,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.sql.Timestamp;
 import java.time.LocalDateTime;
 
 @Entity
@@ -16,18 +17,19 @@ import java.time.LocalDateTime;
 @Table(name = "userkey")
 public class UserKey {
     @Id
-    @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
+    @Column(name = "id")
+    private int id;
 
-    @Column(name = "user_id")
-    private Integer userId;
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "user_id", referencedColumnName = "maKH")
+    private KhachHang khachHang;
 
-    @Column(name = "publickey", columnDefinition = "TEXT")
+    @Column(name = "publickey")
     private String publicKey;
 
-    @Column(name = "creatAt")
-    private LocalDateTime creatAt;
+    @Column(name = "createAt")
+    private Timestamp createAt;
 
     @Column(name = "isActive")
     private Integer isActive;
