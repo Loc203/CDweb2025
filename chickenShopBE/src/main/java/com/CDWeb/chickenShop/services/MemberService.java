@@ -1,8 +1,8 @@
-package com.CDWeb.chickenShop.service.service;
+package com.CDWeb.chickenShop.services;
 
-import com.CDWeb.chickenShop.dto.request.MemberRequest;
-import com.CDWeb.chickenShop.entity.Member;
-import com.CDWeb.chickenShop.repository.MemberRepository;
+import com.CDWeb.chickenShop.dtos.request.MemberRequest;
+import com.CDWeb.chickenShop.entities.Member;
+import com.CDWeb.chickenShop.repositories.MemberRepository;
 import lombok.AccessLevel;
 import lombok.RequiredArgsConstructor;
 import lombok.experimental.FieldDefaults;

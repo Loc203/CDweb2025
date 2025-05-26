@@ -1,4 +1,4 @@
-package com.CDWeb.chickenShop.entity;
+package com.CDWeb.chickenShop.entities;
 
 import com.CDWeb.chickenShop.enums.LogLevels;
 import jakarta.persistence.*;

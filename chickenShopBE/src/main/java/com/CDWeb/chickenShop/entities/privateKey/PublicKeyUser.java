@@ -1,4 +1,4 @@
-package com.CDWeb.chickenShop.entity.privateKey;
+package com.CDWeb.chickenShop.entities.privateKey;
 
 import java.sql.Timestamp;
 

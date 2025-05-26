@@ -1,4 +1,4 @@
-package com.CDWeb.chickenShop.entity;
+package com.CDWeb.chickenShop.entities;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -7,7 +7,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.time.LocalDate;
-import java.util.List;
 
 @Entity
 @NoArgsConstructor
@@ -19,7 +18,7 @@ public class KhachHang {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "maKH")
-    private int maKH;
+    private Long maKH;
 
     @Column(name = "tenKH")
     private String tenKH;

@@ -1,15 +1,14 @@
-package com.CDWeb.chickenShop.controller;
+package com.CDWeb.chickenShop.controllers;
 
-import com.CDWeb.chickenShop.dto.request.MemberRequest;
-import com.CDWeb.chickenShop.entity.Member;
-import com.CDWeb.chickenShop.service.service.MemberService;
+import com.CDWeb.chickenShop.dtos.request.MemberRequest;
+import com.CDWeb.chickenShop.entities.Member;
+import com.CDWeb.chickenShop.services.MemberService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
 @RestController
 @Slf4j

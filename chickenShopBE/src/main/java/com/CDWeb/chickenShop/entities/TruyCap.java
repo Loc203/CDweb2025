@@ -1,4 +1,4 @@
-package com.CDWeb.chickenShop.entity;
+package com.CDWeb.chickenShop.entities;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -18,7 +18,7 @@ public class TruyCap {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "maTC")
-    private Integer maTC;
+    private Long maTC;
 
     @Column(name = "tinhTrang")
     private String tinhTrang;

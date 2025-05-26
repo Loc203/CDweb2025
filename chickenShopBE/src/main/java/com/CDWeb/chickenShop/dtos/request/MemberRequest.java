@@ -1,4 +1,4 @@
-package com.CDWeb.chickenShop.dto.request;
+package com.CDWeb.chickenShop.dtos.request;
 
 import lombok.*;
 import lombok.experimental.FieldDefaults;

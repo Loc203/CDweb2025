@@ -1,4 +1,4 @@
-package com.CDWeb.chickenShop.entity.privateKey;
+package com.CDWeb.chickenShop.entities.privateKey;
 import java.security.*;
 import java.security.spec.InvalidKeySpecException;
 import java.security.spec.PKCS8EncodedKeySpec;
