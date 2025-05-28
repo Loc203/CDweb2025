@@ -1,15 +1,14 @@
-import { useState } from 'react'
-import { Link } from 'react-router'
+import { Routes, Route } from "react-router-dom";
+import { publicRoutes } from './route/routes.jsx';
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-      <h1 className='text-red-400 text-3xl'>test tailwindcss</h1>
-      <Link to={"/testRouter"}>router</Link>
-    </>
-  )
+    return (
+        <Routes>
+            {publicRoutes.map((route, index) => (
+                <Route key={index} path={route.path} element={route.element} />
+            ))}
+        </Routes>
+    );
 }
 
-export default App
+export default App;
