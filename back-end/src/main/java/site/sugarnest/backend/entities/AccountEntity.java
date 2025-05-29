@@ -8,7 +8,6 @@ import java.time.LocalDateTime;
 import java.util.Date;
 import java.util.Set;
 
-@Table(name = "accounts")
 @Setter
 @Getter
 @NoArgsConstructor
@@ -16,6 +15,7 @@ import java.util.Set;
 @Builder
 @Entity
 @ToString
+@Table(name = "accounts")
 public class AccountEntity {
 
     @Id

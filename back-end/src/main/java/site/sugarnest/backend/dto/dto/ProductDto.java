@@ -16,6 +16,7 @@ public class ProductDto {
     private String isActive;
     private String isDelete;
     private String status;
+    private int views = 0;
     private List<ImageProductEntity> imageProductEntity;
     private List<SizeColorProductEntity> sizeColorProductsEntity;
     private List<RateEntity> ratesEntity;

@@ -43,6 +43,7 @@ public class ProductEntity {
 
     private String status;
 
+    private Integer views;
     @OneToMany(mappedBy = "productEntity", cascade = CascadeType.ALL)
     private List<ImageProductEntity> imageProductEntity;
 
@@ -61,5 +62,4 @@ public class ProductEntity {
     @JsonIgnore
     private List<OrderDetailEntity> orderDetailsEntity;
 
-    private int views;
 }
