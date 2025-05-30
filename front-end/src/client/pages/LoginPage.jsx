@@ -53,7 +53,7 @@ const LoginPage = () => {
                                 <a
                                     onClick={getRegisterPage}
                                     className="btn-link-style btn-register"
-                                    style={{ textDecoration: "underline" }}
+                                    style={{ textDecoration: "underline", cursor: 'pointer'  }}
                                 >
                                     Đăng ký tại đây
                                 </a>
@@ -140,20 +140,9 @@ const LoginPage = () => {
                                 <div className="block social-login--facebooks margin-top-20 text-center">
                                     <p className="a-center text-secondary">Hoặc đăng nhập bằng</p>
                                     <a
-                                        onClick={handleFacebookLogin}
-                                        className="social-login--facebook"
-                                    >
-                                        <img
-                                            style={{ marginRight: '5px', borderRadius: '5px' }}
-                                            width="129px"
-                                            height="37px"
-                                            alt="facebook-login-button"
-                                            src="//bizweb.dktcdn.net/assets/admin/images/login/fb-btn.svg"
-                                        />
-                                    </a>
-                                    <a
                                         onClick={handleGoogleLogin}
                                         className="social-login--google"
+                                        style={{ cursor: 'pointer' }}
                                     >
                                         <img
                                             style={{ marginLeft: '5px', borderRadius: '5px' }}
