@@ -70,9 +70,9 @@ const HomePage = () => {
                       <a onClick={() => getListProduct()} title="Sản phẩm nổi bật">
                         <picture>
                           <source media="(max-width: 480px)"
-                            srcSet="//bizweb.dktcdn.net/thumb/large/100/419/628/themes/897067/assets/slider_1.jpg?1704435927037" />
+                            srcSet="https://jollibee.com.vn/media/mageplaza/bannerslider/banner/image/b/a/banner_web-02-compressed.jpg" />
                           <img className=" img-fluid mx-auto"
-                            src="//bizweb.dktcdn.net/100/419/628/themes/897067/assets/slider_1.jpg?1704435927037"
+                            src="https://jollibee.com.vn/media/mageplaza/bannerslider/banner/image/b/a/banner_web-02-compressed.jpg"
                             width="913" height="371" alt="Sản phẩm nổi bật" />
                         </picture>
                       </a>
@@ -81,9 +81,9 @@ const HomePage = () => {
                       <a onClick={() => getListProduct()} title="Khuyến mãi lớn chào xuân">
                         <picture>
                           <source media="(max-width: 480px)"
-                            srcSet="//bizweb.dktcdn.net/thumb/large/100/419/628/themes/897067/assets/slider_2.jpg?1704435927037" />
+                            srcSet="https://jollibee.com.vn/media/mageplaza/bannerslider/banner/image/b/a/banner_web.png" />
                           <img className=" img-fluid mx-auto" loading="lazy"
-                            src="//bizweb.dktcdn.net/100/419/628/themes/897067/assets/slider_2.jpg?1704435927037"
+                            src="https://jollibee.com.vn/media/mageplaza/bannerslider/banner/image/b/a/banner_web.png"
                             width="913" height="371" alt="Khuyến mãi lớn chào xuân" />
                         </picture>
                       </a>
@@ -135,7 +135,7 @@ const HomePage = () => {
                 </div>
               </div>
             </section>
-            <section className="section section_collections awe-section-4">
+            {/* <section className="section section_collections awe-section-4">
               <div className="section_collections">
                 <div className="mt-2 text-center row flex-nowrap collections-slide" style={{ '--item-per-row': '7' }}>
 
@@ -238,7 +238,7 @@ const HomePage = () => {
                   </div>
                 </div>
               </div>
-            </section>
+            </section> */}
             <section className="section section_hot awe-section-5">
               <div className="section_product_new">
 
@@ -253,14 +253,14 @@ const HomePage = () => {
 
                   <div className="row mx-sm-0" data-section="hot-section">
                     <div
-                      className="col-12 col-lg-6 text-center pb-3 product-col section-hot__banner d-none d-lg-block">
+                      className="col-12 col-lg-6 text-center product-col section-hot__banner d-none d-lg-block">
                       <a className="banner" onClick={() => getListProduct()} title="SẢN PHẨM MỚI NHẤT">
                         <picture>
                           <source media="(max-width: 480px)"
-                            srcSet="//bizweb.dktcdn.net/thumb/large/100/419/628/themes/897067/assets/section_hot.jpg?1704435927037" />
+                            srcSet="public/productHot.png" />
                           <img className=" img-fluid" loading="lazy"
-                            src="//bizweb.dktcdn.net/thumb/grande/100/419/628/themes/897067/assets/section_hot.jpg?1704435927037"
-                            width="472" height="345" alt="SẢN PHẨM MỚI NHẤT" />
+                            src="public/productHot.png"
+                           style={{'width':'472px' ,'height':'356px'}} alt="SẢN PHẨM MỚI NHẤT" />
                         </picture>
                       </a>
                     </div>

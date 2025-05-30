@@ -218,7 +218,7 @@ const AdminReportComponent = () => {
                                         <th>Mã sản phẩm</th>
                                         <th>Tên sản phẩm</th>
                                         <th>Ảnh</th>
-                                        <th>Màu sắc/Kích thước</th>
+                                        <th>Mức độ/Kích thước</th>
                                         <th>Số lượng</th>
                                         <th>Tình trạng</th>
                                         <th>Giá tiền</th>

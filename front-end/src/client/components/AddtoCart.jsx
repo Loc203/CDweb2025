@@ -190,7 +190,7 @@ const AddtoCart = ({ product }) => {
                 <div className="product-summary">
                     <div className="rte">
                         <div className="product-summary-content">
-                            <p>{product.description}</p>
+                            <p style={{'white-space': 'pre-line'}}>{product.description}</p>
                         </div>
                     </div>
                 </div>
@@ -266,7 +266,7 @@ const AddtoCart = ({ product }) => {
                             </div>
 
                             <div className="swatch clearfix swatch-color" data-option-index="1">
-                                <div className="header">Màu sắc:</div>
+                                <div className="header">Mức độ:</div>
                                 {[...uniqueColors].map((color, index) => (
                                     <div className="position-relative" key={index}>
                                         <div className="swatch-element">

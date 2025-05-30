@@ -55,7 +55,7 @@ const DetailModalOrder = ({ order, onCancel }) => {
                   <div key={index} className="order-item-detail mb-3">
                     <p><strong>Tên sản phẩm:</strong> {item.productEntity.nameProduct}</p>
                     <p><strong>Kích thước:</strong> {item.productSize}</p>
-                    <p><strong>Màu sắc:</strong> {item.productColor}</p>
+                    <p><strong>Mức độ:</strong> {item.productColor}</p>
                     <p><strong>Số lượng:</strong> {item.quantity}</p>
                     <p><strong>Giá:</strong> {item.price.toLocaleString()} VND</p>
                     <div className="product-images">

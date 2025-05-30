@@ -31,14 +31,6 @@ const Sidebar = () => {
                 <span>Tổng hơp khuyến mãi</span>
               </a>
             </li>
-            <li className="menu-item list-group-item">
-              <a onClick={() => navigate(`/products`)} className="menu-item__link" title="Tổng hơp khuyến mãi">
-                <img loading="lazy" width='24' height='24'
-                  src="https://bizweb.dktcdn.net/100/419/628/themes/897067/assets/menu_icon_2.png?1704435927037"
-                  alt="Tổng hơp khuyến mãi" />
-                <span>Bộ sưu tập bánh</span>
-              </a>
-            </li>
             {
               categories.map((category, index) => {
                 return (

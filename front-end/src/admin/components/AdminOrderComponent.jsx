@@ -147,7 +147,7 @@ const AdminOrderComponent = () => {
             ),
         },
         {
-            title: 'Màu sắc/Kích thước',
+            title: 'Mức độ/Kích thước',
             dataIndex: 'sizeColor',
             key: 'sizeColor',
             render: (text) => (

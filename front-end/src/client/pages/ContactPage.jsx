@@ -10,7 +10,7 @@ const ContactPage = () => {
                     <div className="row">
                         <div className="col-lg-6 col-12">
                             <div className="left-contact px-lg-2">
-                                <h1 className="title_page mb-3">Công ty SugerNest</h1>
+                                <h1 className="title_page mb-3">Công ty KFP Chicken</h1>
                                 <div className="single-contact">
                                     <i className="fa fa-map-marker" />
                                     <div className="content">
@@ -23,7 +23,7 @@ const ContactPage = () => {
                                     <div className="content">
                                         Số điện thoại:{" "}
                                         <a className="link" title={19006750} href="tel:19006750">
-                                            0374781483
+                                            0123456789
                                         </a>
                                     </div>
                                 </div>
@@ -36,7 +36,7 @@ const ContactPage = () => {
                                             className="link"
                                             href="mailto:leminhlongit@gmail.com"
                                         >
-                                            leminhlongit@gmail.com
+                                            kfpChicken@gmail.com
                                         </a>
                                     </div>
                                 </div>

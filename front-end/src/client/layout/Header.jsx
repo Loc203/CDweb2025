@@ -131,20 +131,6 @@ const Header = () => {
 
   return (
     <div>
-      <div className="top-banner position-relative" style={{ background: '#a50a06' }}>
-        <div className="container text-center px-0">
-          <a className="position-relative  d-sm-none d-block" style={{ maxHeight: '78px', height: 'calc( 78 * 100vw /828 )' }} onClick={getProduct} title="Khuyến mãi">
-            <img className="img-fluid position-absolute " src="//bizweb.dktcdn.net/100/419/628/themes/897067/assets/top_banner_mb.jpg?1704435927037" style={{ left: 0 }} alt="Khuyến mãi" width="828" height="78" />
-          </a>
-          <a className="position-relative d-sm-block d-none " style={{ maxHeight: '44px', height: 'calc(44 * 100vw /1200)' }} onClick={getProduct} title="Khuyến mãi">
-            <picture>
-              <source media="(max-width: 480px)" srcSet="//bizweb.dktcdn.net/thumb/large/100/419/628/themes/897067/assets/top_banner.jpg?1704435927037" />
-              <img className="img-fluid position-absolute" src="//bizweb.dktcdn.net/100/419/628/themes/897067/assets/top_banner.jpg?1704435927037" style={{ left: 0 }} alt="Khuyến mãi" width="1200" height="44" />
-            </picture>
-          </a>
-          <button type="button" className="close " aria-label="Close">✕</button>
-        </div>
-      </div>
       <header className="header header_menu">
         {mobileMenu && (
           <div id="mobile-menu" className="scroll active" ref={mobileMenuRef}>
@@ -241,8 +227,8 @@ const Header = () => {
                     )}
                     <a onClick={getHomePage} className="logo-wrapper" title='EGA Cake'>
                       <img loading="lazy" className="img-fluid"
-                        src="https://bizweb.dktcdn.net/100/419/628/themes/897067/assets/logo.png?1704435927037"
-                        alt="logo EGA Cake" width="187" height="50" />
+                        src="public/logo.png"
+                        alt="logo KFP Chicken" style={{'width': '70px', 'height': 'auto'}}/>
                     </a>
                   </div>
                   <SearchBar />
@@ -373,7 +359,7 @@ const Header = () => {
                   </li>
                   <li className="menu-item list-group-item">
                     <a onClick={() => navigator(`/products`)} className="menu-item__link" title="Quà tặng 08/03">
-                      <span> Quà tặng 08/03</span>
+                      <span> Danh sách sản phẩm</span>
                     </a>
 
                   </li>
@@ -402,21 +388,6 @@ const Header = () => {
                         </li>
                       </ul>
                     </div>
-                  </li>
-                  <li className="menu-item list-group-item">
-                    <a onClick={() => navigator(`/products`)} className="menu-item__link" title="Bánh ngon mỗi ngày">
-                      <span> Bánh ngon mỗi ngày</span>
-                    </a>
-                  </li>
-                  <li className="menu-item list-group-item">
-                    <a className="menu-item__link" title="Công thức làm bánh">
-                      <span> Công thức làm bánh</span>
-                    </a>
-                  </li>
-                  <li className="menu-item list-group-item">
-                    <a className="menu-item__link" title="Chuyên mục làm bánh">
-                      <span> Chuyên mục làm bánh</span>
-                    </a>
                   </li>
                   <li className="menu-item list-group-item">
                     <a onClick={() => navigator(`/contact`)} className="menu-item__link" title="Liên hệ">

@@ -10,32 +10,32 @@ const Blog = () => {
                 </h2>
 
                 <div className="product-related-blog__items card border-0"><div className="blogwp clearfix">
-                    <a className="image-blog card-img-top text-center position-relative d-flex align-items-center justify-content-center aspect-ratio" title="HỌC CÁCH LÀM BÁNH SU KEM BẰNG LÒ NƯỚNG CỰC NGON" style={{ width: '360px', height: '192px' }}>
-                        <img className="img-fluid m-auto mh-100 w-auto" src="https://bizweb.dktcdn.net/100/419/628/articles/lam-banh-su-kem-bang-lo-nuong.jpg?v=1644994877230" alt="HỌC CÁCH LÀM BÁNH SU KEM BẰNG LÒ NƯỚNG CỰC NGON" />
+                    <a className="image-blog card-img-top text-center position-relative d-flex align-items-center justify-content-center aspect-ratio" title="CHƯƠNG TRÌNH CRUNCHY NIGHT" style={{ width: '360px', height: '192px' }}>
+                        <img className="img-fluid m-auto mh-100 w-auto" src="https://texaschickenvn.com/vnt_upload/news/12_2022/317718093_2724446671020264_8496907873597464248_n_1.jpg" alt="CHƯƠNG TRÌNH CRUNCHY NIGHT" />
                     </a>
                     <div className="content_blog clearfix card-body px-0 py-2">
                         <h3>
-                            <a className="link" title="HỌC CÁCH LÀM BÁNH SU KEM BẰNG LÒ NƯỚNG CỰC NGON">HỌC CÁCH LÀM BÁNH SU KEM BẰNG LÒ NƯỚNG CỰC NGON</a>
+                            <a className="link" title="CHƯƠNG TRÌNH CRUNCHY NIGHT">CHƯƠNG TRÌNH CRUNCHY NIGHT</a>
                         </h3>
                     </div>
                 </div>
                     <div className="blogwp clearfix">
-                        <a className="image-blog card-img-top text-center position-relative d-flex align-items-center justify-content-center aspect-ratio " title="CÁCH LÀM BÁNH SU KEM CHIÊN GIÒN RỤM, THƠM NGON KHÓ CƯỠNG" style={{ width: '360px', height: '192px' }}>
-                            <img className="img-fluid m-auto mh-100 w-auto" src="https://bizweb.dktcdn.net/100/419/628/articles/untitled2.png?v=1644994967693" alt="CÁCH LÀM BÁNH SU KEM CHIÊN GIÒN RỤM, THƠM NGON KHÓ CƯỠNG" />
+                        <a className="image-blog card-img-top text-center position-relative d-flex align-items-center justify-content-center aspect-ratio " title="Jollibee đạt mốc 200 cửa hàng tại thị trường Việt Nam" style={{ width: '360px', height: '192px' }}>
+                            <img className="img-fluid m-auto mh-100 w-auto" src="https://jollibee.com.vn/media/magefan_blog/TT1_1.jpg" alt="Jollibee đạt mốc 200 cửa hàng tại thị trường Việt Nam" />
                         </a>
                         <div className="content_blog clearfix card-body px-0 py-2">
                             <h3>
-                                <a className="link" title="CÁCH LÀM BÁNH SU KEM CHIÊN GIÒN RỤM, THƠM NGON KHÓ CƯỠNG">CÁCH LÀM BÁNH SU KEM CHIÊN GIÒN RỤM, THƠM NGON KHÓ CƯỠNG</a>
+                                <a className="link" title="Jollibee đạt mốc 200 cửa hàng tại thị trường Việt Nam">JOLLIBEE ĐẠT MỐC 200 CỬA HÀNG TẠI VIỆT NAM</a>
                             </h3>
                         </div>
                     </div>
                     <div className="blogwp clearfix">
-                        <a className="image-blog card-img-top text-center position-relative  d-flex align-items-center justify-content-centeraspect-ratio " title="HỌC LỎM CÁCH LÀM BÁNH SU SINGAPORE “CHUẨN KHÔNG CẦN CHỈNH”" style={{ width: '360px', height: '192px' }}>
-                            <img className="img-fluid m-auto mh-100 w-auto" src="https://bizweb.dktcdn.net/100/419/628/articles/banh-su-kem-singapore-bat-mat-600x400.jpg?v=1644994920343" alt="HỌC LỎM CÁCH LÀM BÁNH SU SINGAPORE “CHUẨN KHÔNG CẦN CHỈNH”" />
+                        <a className="image-blog card-img-top text-center position-relative  d-flex align-items-center justify-content-centeraspect-ratio " title="CẬP NHẬT DANH SÁCH NHÀ HÀNG TẠI KHU VỰC THÀNH PHỐ HỒ CHÍ MINH" style={{ width: '360px', height: '192px' }}>
+                            <img className="img-fluid m-auto mh-100 w-auto" src="https://texaschickenvn.com/vnt_upload/news/09_2023/TXC_KTCT.jpg" alt="CẬP NHẬT DANH SÁCH NHÀ HÀNG TẠI KHU VỰC THÀNH PHỐ HỒ CHÍ MINH" />
                         </a>
                         <div className="content_blog clearfix card-body px-0 py-2">
                             <h3>
-                                <a className="link" title="HỌC LỎM CÁCH LÀM BÁNH SU SINGAPORE “CHUẨN KHÔNG CẦN CHỈNH”">HỌC LỎM CÁCH LÀM BÁNH SU SINGAPORE “CHUẨN KHÔNG CẦN CHỈNH”</a>
+                                <a className="link" title="CẬP NHẬT DANH SÁCH NHÀ HÀNG TẠI KHU VỰC THÀNH PHỐ HỒ CHÍ MINH">CẬP NHẬT DANH SÁCH NHÀ HÀNG TẠI KHU VỰC THÀNH PHỐ HỒ CHÍ MINH</a>
                             </h3>
                         </div>
                     </div>

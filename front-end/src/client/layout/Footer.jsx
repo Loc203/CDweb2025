@@ -89,8 +89,8 @@ const Footer = () => {
               <div className="col-xs-12 col-md-6 col-lg-3 footer-click footer-1">
                 <a href="/public" className="logo-wrapper mb-3 d-block ">
                   <img loading="lazy"
-                    src="//bizweb.dktcdn.net/100/419/628/themes/897067/assets/logo-footer.png?1704435927037"
-                    alt="logo EGA Cake" width="164" height="50" />
+                    src="public\logo.png"
+                    alt="logo KFP Chicken" style={{'width':'100px','height':'auto' }}/>
                 </a>
                 <p>
 

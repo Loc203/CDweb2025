@@ -463,7 +463,7 @@ a.link:hover {
 	display: inline-block;
 }
 .logo-wrapper img {
-	max-height: 50px;
+	max-height: 200px;
 }
 @media (max-width: 992px) {
 	.logo-wrapper {

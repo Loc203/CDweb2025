@@ -478,7 +478,7 @@ const AdminAddProductComponent = () => {
                                     <tbody>
                                         <tr>
                                             <th>Kích thước</th>
-                                            <th>Màu sắc</th>
+                                            <th>Mức độ</th>
                                             <th>Số lượng</th>
                                             <th>Giá tiền</th>
                                             <th>Giảm giá</th>
@@ -503,7 +503,7 @@ const AdminAddProductComponent = () => {
                                                         name="color"
                                                         value={product.color}
                                                         onChange={(e) => handleInputChange(index, e)}
-                                                        placeholder="Nhập màu sắc"
+                                                        placeholder="Nhập mức độ"
                                                     />
                                                 </td>
                                                 <td>

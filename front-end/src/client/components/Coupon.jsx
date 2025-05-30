@@ -19,14 +19,14 @@ const Coupon = () => {
                 <div className="coupon_item no-icon">
                     <div className="coupon_body">
                         <div className="coupon_head">
-                            <h3 className="coupon_title">NHẬP MÃ: EGA50</h3>
+                            <h3 className="coupon_title">NHẬP MÃ: KFP50</h3>
                             <div className="coupon_desc">Giảm 50% cho đơn hàng giá trị tối thiểu 500K. Mã giảm
                                 tối đa 200K </div>
                         </div>
                         <div className="d-flex align-items-center flex-wrap justify-content-between">
-                            <button className="btn btn-main btn-sm coupon_copy" data-ega-coupon="EGA50" onClick={handleCopy}>
+                            <button className="btn btn-main btn-sm coupon_copy" data-ega-coupon="KFP50" onClick={handleCopy}>
                                 <span>Sao chép</span></button>
-                            <span className="coupon_info_toggle" data-coupon="EGA50">
+                            <span className="coupon_info_toggle" data-coupon="KFP50">
                                 Điều kiện
                             </span>
                             <div className="coupon_info">
@@ -41,15 +41,15 @@ const Coupon = () => {
                 <div className="coupon_item no-icon">
                     <div className="coupon_body">
                         <div className="coupon_head">
-                            <h3 className="coupon_title">NHẬP MÃ: EGA15</h3>
+                            <h3 className="coupon_title">NHẬP MÃ: KFP15</h3>
                             <div className="coupon_desc">Giảm 15% cho đơn hàng giá trị tối thiểu 500k. Mã giảm
                                 tối đa 100K </div>
 
                         </div>
                         <div className="d-flex align-items-center flex-wrap justify-content-between">
-                            <button className="btn btn-main btn-sm coupon_copy" data-ega-coupon="EGA15" onClick={handleCopy}>
+                            <button className="btn btn-main btn-sm coupon_copy" data-ega-coupon="KFP15" onClick={handleCopy}>
                                 <span>Sao chép</span></button>
-                            <span className="coupon_info_toggle" data-coupon="EGA15">
+                            <span className="coupon_info_toggle" data-coupon="KFP15">
                                 Điều kiện
                             </span>
                             <div className="coupon_info">
@@ -64,14 +64,14 @@ const Coupon = () => {
                 <div className="coupon_item no-icon">
                     <div className="coupon_body">
                         <div className="coupon_head">
-                            <h3 className="coupon_title">NHẬP MÃ: EGA99K</h3>
-                            <div className="coupon_desc">Nhập mã EGA99K giảm ngay 99K </div>
+                            <h3 className="coupon_title">NHẬP MÃ: KFP99K</h3>
+                            <div className="coupon_desc">Nhập mã KFP99K giảm ngay 99K </div>
 
                         </div>
                         <div className="d-flex align-items-center flex-wrap justify-content-between">
-                            <button className="btn btn-main btn-sm coupon_copy" data-ega-coupon="EGA99K" onClick={handleCopy}>
+                            <button className="btn btn-main btn-sm coupon_copy" data-ega-coupon="KFP99K" onClick={handleCopy}>
                                 <span>Sao chép</span></button>
-                            <span className="coupon_info_toggle" data-coupon="EGA99K">
+                            <span className="coupon_info_toggle" data-coupon="KFP99K">
                                 Điều kiện
                             </span>
                             <div className="coupon_info">

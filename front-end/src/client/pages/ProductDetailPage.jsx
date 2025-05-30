@@ -77,7 +77,7 @@ const ProductDetailComponent = () => {
                         <div className="col-12 pl-0 pr-0">
                             <div className="related-product">
                                 <div className="title_module heading-bar d-flex justify-content-between align-items-center" style={{ backgroundColor: "#2d2d2d" }}>
-                                    <h2 className="bf_flower heading-bar__title" tyle={{ color: "#ffffff" }}>
+                                    <h2 className="bf_flower heading-bar__title" style={{ color: "#ffffff" }}>
                                         <a onClick={() => navigate(`/products/${product.categoryEntity.nameCategory}`)} title="SẢN PHẨM THƯỜNG MUA CÙNG">
                                             SẢN PHẨM THƯỜNG MUA CÙNG
                                         </a>
@@ -114,7 +114,7 @@ const ProductDetailComponent = () => {
                                 className="rte js-product-getcontent product_getcontent pos-relative"
                                 style={{ '--content-height': '693px', maxHeight: '500px' }}>
                                 <div id="content" className='content js-content'>
-                                    <p>{product.description}</p>
+                                    <p style={{'white-space': 'pre-line'}}>{product.description}</p>
                                     <p>&nbsp;</p>
                                     <p style={{ textAlign: 'center' }}>
                                         <img loading="lazy" alt={product.nameProduct}

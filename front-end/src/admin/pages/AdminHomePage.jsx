@@ -134,7 +134,7 @@ const AdminHomePage = () => {
                                             <tr>
                                                 <th>ID</th>
                                                 <th>Tên sản phẩm</th>
-                                                <th>Màu sắc/Kích thước</th>
+                                                <th>Mức độ/Kích thước</th>
                                                 <th>Số lượng</th>
                                             </tr>
                                         </thead>
