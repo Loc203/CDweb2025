@@ -12,10 +12,10 @@ spring:
     password: 123
     driverClassName: com.mysql.cj.jdbc.Driver
   jpa:
-      hibernate:
-        ddl-auto: update
-      show_sql: true
-      packages-to-scan: site.sugarnest.backend.entities
+    hibernate:
+      ddl-auto: update
+    show_sql: true
+    packages-to-scan: site.sugarnest.backend.entities
   mail:
     host: smtp.gmail.com
     port: 587
@@ -37,15 +37,15 @@ spring:
       client:
         registration:
           google:
-            client-id: 467811719826-i6ap1c344id4niejqe50obklunrptcrd.apps.googleusercontent.com
-            client-secret: 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
+            client-id: 1072044351774-i9k9vousn9hna6b3l3qjt2t28o02kavc.apps.googleusercontent.com
+            client-secret: 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
             scope: profile, email
             redirect-uri: "{baseUrl}/login/oauth2/code/google"
-          facebook:
-            client-id: 1562454040935985
-            client-secret: 50d9c75f03a9c5130e6517ef38c976a4
-            scope: email, public_profile
-            redirect-uri: "{baseUrl}/login/oauth2/code/facebook"
+          # facebook:
+          #   client-id: 1562454040935985
+          #   client-secret: 50d9c75f03a9c5130e6517ef38c976a4
+          #   scope: email, public_profile
+          #   redirect-uri: "{baseUrl}/login/oauth2/code/facebook"
 
 file:
   upload-dir: uploads/
