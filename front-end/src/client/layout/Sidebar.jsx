@@ -24,11 +24,11 @@ const Sidebar = () => {
         <nav className="h-100">
           <ul className="navigation list-group list-group-flush scroll">
             <li className="menu-item list-group-item">
-              <a onClick={getListProduct} className="menu-item__link" title="Tổng hơp khuyến mãi">
+              <a onClick={getListProduct} className="menu-item__link" title="Tổng hợp khuyến mãi">
                 <img loading="lazy" width='24' height='24'
                   src="https://bizweb.dktcdn.net/100/419/628/themes/897067/assets/menu_icon_1.png?1704435927037"
-                  alt="Tổng hơp khuyến mãi" />
-                <span>Tổng hơp khuyến mãi</span>
+                  alt="Tổng hợp khuyến mãi" />
+                <span>Tổng hợp khuyến mãi</span>
               </a>
             </li>
             {
@@ -38,7 +38,7 @@ const Sidebar = () => {
                     <a onClick={() => navigate(`/products/${category.nameCategory}`)} className="menu-item__link" title={category.nameCategory}>
                       <img loading="lazy" width='24' height='24'
                         src={category.imageCategory ? category.imageCategory : "https://bizweb.dktcdn.net/100/419/628/themes/897067/assets/menu_icon_1.png?1704435927037"}
-                        alt="Tổng hơp khuyến mãi" />
+                        alt="Tổng hợp khuyến mãi" />
                       <span>{category.nameCategory}</span>
                     </a>
                   </li>

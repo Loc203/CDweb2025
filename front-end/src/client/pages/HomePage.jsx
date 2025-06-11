@@ -283,13 +283,13 @@ const HomePage = () => {
             </section>
             <section className="section section_banner awe-section-6">
               <div className="section_banner_adv">
-                <a className="banner" title="Teabreak">
+                <a className="banner" title="banner">
                   <picture>
                     <source media="(max-width: 600px)"
                       srcSet="//bizweb.dktcdn.net/thumb/grande/100/419/628/themes/897067/assets/section_hot_banner.png?1704435927037" />
                     <img className="img-fluid" loading="lazy"
-                      src="//bizweb.dktcdn.net/100/419/628/themes/897067/assets/section_hot_banner.png?1704435927037"
-                      alt="Teabreak" width="1200" height="108" />
+                      src="./banner.png"
+                      alt="banner" width="1200" height="108" />
                   </picture>
 
                 </a>
@@ -300,9 +300,9 @@ const HomePage = () => {
                 <div className="title_module_main heading-bar e-tabs d-flex justify-content-between align-items-center flex-wrap"
                   style={{ backgroundColor: '#212121' }}>
                   <h2 className="heading-bar__title" style={{ color: '#ffffff' }}>
-                    <img src='//bizweb.dktcdn.net/100/419/628/themes/897067/assets/product_top_1-icon.png?1704435927037'
+                    <img src='./chickenbud.png'
                       alt='QUÀ VALENTINE' />
-                    <a className='link' onClick={() => getListProduct()} title="BÁNH NGỌT ">
+                    <a className='link' onClick={() => getListProduct()} title="Chicken">
                       ĐƯỢC XEM NHIỀU NHẤT
                     </a>
                   </h2>
@@ -325,48 +325,6 @@ const HomePage = () => {
                           <use xlinkHref="#icon-arrow" />
                         </svg> </a>
                     </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <section className="section section_banner_coll_1 awe-section-8">
-              <div className="section_banner_coll">
-                <div className="row justify-content-md-center text-center justify-content-start">
-                  <div className="item col-8 col-md-4">
-                    <a className="banner" onClick={() => getListProduct()} title="Bánh bì">
-                      <picture>
-                        <source media="(max-width: 600px)"
-                          srcSet="//bizweb.dktcdn.net/thumb/grande/100/419/628/themes/897067/assets/banner_coll_1_1.jpg?1704435927037" />
-                        <img loading="lazy" className="img-fluid"
-                          src="//bizweb.dktcdn.net/100/419/628/themes/897067/assets/banner_coll_1_1.jpg?1704435927037"
-                          alt="banner_coll_1_1_title" width="289" height="175" />
-                      </picture>
-
-                    </a>
-                  </div>
-                  <div className="item col-8 col-md-4">
-                    <a className="banner" onClick={() => getListProduct()} title="Bánh kem">
-                      <picture>
-                        <source media="(max-width: 600px)"
-                          srcSet="//bizweb.dktcdn.net/thumb/grande/100/419/628/themes/897067/assets/banner_coll_1_2.jpg?1704435927037" />
-                        <img loading="lazy" className="img-fluid"
-                          src="//bizweb.dktcdn.net/100/419/628/themes/897067/assets/banner_coll_1_2.jpg?1704435927037"
-                          alt="banner_coll_1_2_title" width="289" height="175" />
-                      </picture>
-
-                    </a>
-                  </div>
-                  <div className="item col-8 col-md-4">
-                    <a className="banner" onClick={() => getListProduct()} title="Bánh kem nhỏ">
-                      <picture>
-                        <source media="(max-width: 600px)"
-                          srcSet="//bizweb.dktcdn.net/thumb/grande/100/419/628/themes/897067/assets/banner_coll_1_3.jpg?1704435927037" />
-                        <img loading="lazy" className="img-fluid"
-                          src="//bizweb.dktcdn.net/100/419/628/themes/897067/assets/banner_coll_1_3.jpg?1704435927037"
-                          alt="banner_coll_1_3_title" width="289" height="175" />
-                      </picture>
-
-                    </a>
                   </div>
                 </div>
               </div>

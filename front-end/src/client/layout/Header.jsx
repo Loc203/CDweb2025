@@ -346,7 +346,7 @@ const Header = () => {
           <div className="navigation--horizontal d-md-flex align-items-center d-none">
             <div className=" navigation-horizontal-wrapper ">
               <nav>
-                <ul className="navigation-horizontal list-group list-group-flush scroll">
+                <ul className="navigation-horizontal list-group list-group-flush scroll pe-auto">
                   <li className="menu-item list-group-item">
                     <a onClick={getHomePage} className="menu-item__link" title="Trang chủ">
                       <span> Trang chủ</span>

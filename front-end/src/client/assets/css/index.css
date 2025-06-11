@@ -276,6 +276,13 @@ body {
 margin-top: 8px;
 	border-radius: 6px
 }
+.menu-wrapper::before {
+    position: absolute;
+    height: 20px;
+    content: '';
+    width: 100%;
+    top: -20px;
+}
  .subheader{
 	bottom: 0px;
 	

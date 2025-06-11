@@ -1,5 +1,6 @@
 package site.sugarnest.backend.entities;
 import com.fasterxml.jackson.annotation.JsonBackReference;
+import lombok.Builder;
 import lombok.Data;
 
 import jakarta.persistence.*;

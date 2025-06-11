@@ -1209,6 +1209,10 @@ a.product-vendor:hover {
 	left: 0;
 }
 /** navigation **/
+.list-group-item:hover{
+	cursor: pointer;;
+}
+
 .list-group-item.active {
 	z-index: 2;
 	color: initial;

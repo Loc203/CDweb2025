@@ -218,17 +218,17 @@ const AddtoCart = ({ product }) => {
                         <div className='product-coupons coupon-toggle-btn'>
                             <div className="coupon_item lite">
                                 <div className='coupon_content'>
-                                    EGA50
+                                    KFP50
                                 </div>
                             </div>
                             <div className="coupon_item lite">
                                 <div className='coupon_content'>
-                                    EGA15
+                                    KFP15
                                 </div>
                             </div>
                             <div className="coupon_item lite">
                                 <div className='coupon_content'>
-                                    EGA99K
+                                    KFP99K
                                 </div>
                             </div>
                             <div className="coupon_item lite">
