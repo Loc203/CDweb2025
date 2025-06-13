@@ -129,7 +129,7 @@ const RegisterPage = () => {
             if (!emailNameRegex.test(value) && value !== null && value !== '') {
                 errorMessage = 'Email chưa đúng định dạng user@acb.zxc.';
             } else {
-                axios.post('http://localhost:8080/sugarnest/v0.1/account/checkEmail', { email: formData.email })
+                axios.post('http://localhost:8080/kfp/account/checkEmail', { email: formData.email })
                     .then(response => {
                         if (response.data.code === 200) {
                             console.log('Email exists:', formData.email);

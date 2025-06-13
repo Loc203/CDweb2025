@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export const REST_API_BASE_URL = "http://localhost:8080/sugarnest/v0.1";
+export const REST_API_BASE_URL = "http://localhost:8080/kfp";
 
 export const listProducts = (page) => axios.get(`${REST_API_BASE_URL}/products?page=${page}`);
 export const getProduct = (id) => axios.get(`${REST_API_BASE_URL}/products/${id}`);
