@@ -97,13 +97,13 @@ const Footer = () => {
                 </p>
                 <div className="single-contact">
                   <div className="content"><strong>Địa chỉ: </strong>
-                    <span>150/8 Nguyễn Duy Cung, Phường 12, TP Hồ Chí Minh, </span>
+                    <span>123 Linh Trung, Phường Linh Trung, Thủ Đức, TP Hồ Chí Minh</span>
                   </div>
                 </div>
                 <div className="single-contact">
                   <div className="content">
                     <strong>Số điện thoại: </strong>
-                    <a className="link" title="19006750" href="tel:19006750">19006750</a>
+                    <a className="link" title="1234 123 123" href="tel:1234 123 123">1234 123 123</a>
                   </div>
                 </div>
                 <div className="single-contact">
@@ -161,19 +161,19 @@ const Footer = () => {
                 </h4>
                 <p>
                   <span>Gọi mua hàng:</span>
-                  <a className='text-primary font-weight-bold' href='tel:19006750'>19006750</a>
+                  <a className='text-primary font-weight-bold' href='tel:1234 123 123'>1234 123 123</a>
                   <span>(8h-20h)</span>
                 </p>
                 <p>
                   <span>
                     Gọi bảo hành:</span>
-                  <a className='text-primary font-weight-bold' href='tel:19006750 '>19006750 </a>
+                  <a className='text-primary font-weight-bold' href='tel:1234 123 123 '>1234 123 123 </a>
                   <span>(8h-20h)</span>
                 </p>
                 <p>
                   <span>
                     Gọi khiếu nại:</span>
-                  <a className='text-primary font-weight-bold' href='tel:19006750 '>19006750 </a>
+                  <a className='text-primary font-weight-bold' href='tel:1234 123 123 '>1234 123 123 </a>
                   <span> (8h-20h)</span>
                 </p>
 

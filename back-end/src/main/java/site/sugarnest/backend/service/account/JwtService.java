@@ -27,7 +27,7 @@ public class JwtService {
 
         JWTClaimsSet jwtClaimsSet = new JWTClaimsSet.Builder()
                 .subject(account.getAccountName())
-                .issuer("SugarNest.com")
+                .issuer("kfpChicken.com")
                 .issueTime(new Date())
                 .expirationTime(new Date(
                         Instant.now().plus(5, ChronoUnit.MINUTES).toEpochMilli()

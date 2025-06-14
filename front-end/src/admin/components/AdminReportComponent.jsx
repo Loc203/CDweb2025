@@ -87,9 +87,9 @@ const AdminReportComponent = () => {
                     <div className="widget-small primary coloured-icon">
                         <i className="icon  bx bxs-user fa-3x" />
                         <div className="info">
-                            <h4>Tổng khách hàng</h4>
+                            <h4>Tổng tài khoản</h4>
                             <p>
-                                <b>{totalAccount} nhân viên</b>
+                                <b>{totalAccount} tài khoản</b>
                             </p>
                         </div>
                     </div>
@@ -144,9 +144,9 @@ const AdminReportComponent = () => {
                     <div className="widget-small info coloured-icon">
                         <i className="icon fa-3x bx bxs-user-badge" />
                         <div className="info">
-                            <h4>Khách hàng mới</h4>
+                            <h4>Người dùng mới</h4>
                             <p>
-                                <b>3 khách hàng</b>
+                                <b>{newCustomers.length} người dùng mới</b>
                             </p>
                         </div>
                     </div>
@@ -250,7 +250,7 @@ const AdminReportComponent = () => {
                 <div className="col-md-12">
                     <div className="tile">
                         <div>
-                            <h3 className="tile-title">KHÁCH HÀNG MỚI</h3>
+                            <h3 className="tile-title">NGƯỜI DÙNG MỚI</h3>
                         </div>
                         <div className="tile-body">
                             <table className="table table-hover table-bordered responsive-table" id="sampleTable">

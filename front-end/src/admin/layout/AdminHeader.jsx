@@ -18,6 +18,7 @@ const AdminHeader = () => {
         setSidebarVisible(!sidebarVisible);
         const sidebar = document.querySelector('.app-sidebar');
         sidebar.style.display = sidebarVisible ? 'none' : 'block';
+        
     };
     useEffect(() => {
         const { pathname } = location;
@@ -59,7 +60,7 @@ const AdminHeader = () => {
     return (
         <>
             <header className="app-header">
-                <a className="app-sidebar__toggle" href="#" data-toggle="sidebar" aria-label={sidebarVisible ? "Hide Sidebar" : "Show Sidebar"} onClick={handleToggleSidebar}></a>
+                <a className="app-sidebar__toggle" href="#" data-toggle="sidebar" aria-label={sidebarVisible ? "Hide Sidebar" : "Show Sidebar"} onClick={handleToggleSidebar} style={{ color: 'white', cursor: 'pointer' }}>hihi</a>
                 <ul className="app-nav">
                     <li>
                         <a className="app-nav__item" onClick={logout}>
@@ -72,7 +73,7 @@ const AdminHeader = () => {
                 <div className="app-sidebar__user">
                     <img
                         className="app-sidebar__user-avatar"
-                        src="https://moc247.com/wp-content/uploads/2023/12/loa-mat-voi-101-hinh-anh-avatar-meo-cute-dang-yeu-dep-mat_2.jpg"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIhsJ2D692LXEDT04mefdqZtznqnIg31FnmX5-aETP1O-rA40rRhSYbMrmMTfTVHHwoCk&usqp=CAU"
                         width="50px"
                         alt="User Image" />
                     <div>
@@ -84,52 +85,40 @@ const AdminHeader = () => {
                 </div>
                 <hr />
                 <ul className="app-menu">
-                    <li>
-                        <a className="app-menu__item haha">
-                            <i className="app-menu__icon bx bx-cart-alt" />
-                            <span className="app-menu__label">POS Bán Hàng</span>
-                        </a>
-                    </li>
-                    <li>
+                    <li style={{ color: 'white', cursor: 'pointer' }}>
                         <a className={`app-menu__item ${activeMenu === 'home' ? 'active' : ''}`} onClick={getHomePage}>
                             <i className="app-menu__icon bx bx-tachometer" />
                             <span className="app-menu__label">Bảng điều khiển</span>
                         </a>
                     </li>
-                    <li>
+                    <li style={{ color: 'white', cursor: 'pointer' }}>
                         <a className={`app-menu__item ${activeMenu === 'account' ? 'active' : ''}`} onClick={getAccountManager}>
                             <i className="app-menu__icon bx bx-id-card" />
                             <span className="app-menu__label">Quản lý tài khoản</span>
                         </a>
                     </li>
-                    <li>
+                    <li style={{ color: 'white', cursor: 'pointer' }}>
                         <a className={`app-menu__item ${activeMenu === 'product' ? 'active' : ''}`} onClick={getProductManager}>
                             <i className="app-menu__icon bx bx-purchase-tag-alt" />
                             <span className="app-menu__label">Quản lý sản phẩm</span>
                         </a>
                     </li>
-                    <li>
+                    <li style={{ color: 'white', cursor: 'pointer' }}>
                         <a className={`app-menu__item ${activeMenu === 'discount' ? 'active' : ''}`} onClick={getDiscountManager}>
                             <i className="app-menu__icon bx bxs-discount" />
                             <span className="app-menu__label">Quản lý mã giảm giá</span>
                         </a>
                     </li>
-                    <li>
+                    <li style={{ color: 'white', cursor: 'pointer' }}>
                         <a className={`app-menu__item ${activeMenu === 'order' ? 'active' : ''}`} onClick={getOrderManager}>
                             <i className="app-menu__icon bx bx-task" />
                             <span className="app-menu__label">Quản lý đơn hàng</span>
                         </a>
                     </li>
-                    <li>
+                    <li style={{ color: 'white', cursor: 'pointer' }}>
                         <a className={`app-menu__item ${activeMenu === 'report' ? 'active' : ''}`} onClick={getReport}>
                             <i className="app-menu__icon bx bx-pie-chart-alt-2" />
                             <span className="app-menu__label">Báo cáo doanh thu</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a className="app-menu__item" href="#">
-                            <i className="app-menu__icon bx bx-cog" />
-                            <span className="app-menu__label">Cài đặt hệ thống</span>
                         </a>
                     </li>
                 </ul>

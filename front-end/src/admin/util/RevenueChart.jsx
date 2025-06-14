@@ -131,7 +131,7 @@ const RevenueChart = () => {
         </label>
       </div>
       <Bar ref={chartRef} data={chartData} options={options} />
-    </div>
+    </div> 
   );
 };
 
