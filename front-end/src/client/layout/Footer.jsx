@@ -1,6 +1,7 @@
 import React from 'react'
-
+import { useNavigate } from 'react-router-dom';
 const Footer = () => {
+  const navigate = useNavigate();
   return (
     <div>
       <div className='top-footer'>
@@ -103,7 +104,7 @@ const Footer = () => {
                 <div className="single-contact">
                   <div className="content">
                     <strong>Số điện thoại: </strong>
-                    <a className="link" title="1234 123 123" href="tel:1234 123 123">1234 123 123</a>
+                    <a className="link" title="1234 123 123" href="tel:19006750 ">19006750 </a>
                   </div>
                 </div>
                 <div className="single-contact">
@@ -120,20 +121,17 @@ const Footer = () => {
                 </h4>
                 <ul className="list-menu toggle-mn">
                   <li className="li_menu">
-                    <a className="link" href="/gioi-thieu" title="Về chúng tôi">Về chúng tôi</a>
+                    <a className="link" onClick={() => navigate('/gioi-thieu')} title="Về chúng tôi">Về chúng tôi</a>
                   </li>
                   <li className="li_menu">
-                    <a className="link" href="/he-thong-cua-hang" title="Hệ thống cửa hàng">Hệ thống cửa
-                      hàng</a>
+                    <a className="link" onClick={() => navigate('/he-thong-cua-hang')} title="Hệ thống cửa hàng">Hệ thống cửa hàng</a>
                   </li>
                   <li className="li_menu">
-                    <a className="link" href="/goi-dien-dat-hang" title="Gọi điện đặt hàng">Gọi điện đặt
-                      hàng</a>
+                    <a className="link" onClick={() => navigate('/goi-dien-dat-hang')} title="Gọi điện đặt hàng">Gọi điện đặt hàng</a>
                   </li>
-                  <li className="li_menu">
-                    <a className="link" href="/xuat-hoa-don-dien-tu" title="Xuất hoá đơn điện tử">Xuất hoá đơn
-                      điện tử</a>
-                  </li>
+                  {/*<li className="li_menu">*/}
+                  {/*  <a className="link" onClick={() => navigate('/xuat-hoa-don-dien-tu')} title="Xuất hoá đơn điện tử">Xuất hoá đơn điện tử</a>*/}
+                  {/*</li>*/}
                 </ul>
               </div>
               <div className="col-xs-12 col-md-6 col-lg-3 footer-click">
@@ -142,16 +140,16 @@ const Footer = () => {
                 </h4>
                 <ul className="list-menu toggle-mn">
                   <li className="li_menu">
-                    <a className="link" href="/chinh-sach-ban-hang" title="Chính sách bán hàng">Chính sách bán
-                      hàng</a>
+                    <a className="link" onClick={() => navigate('/chinh-sach-ban-hang')} title="Chính sách bán hàng">Chính
+                      sách bán hàng</a>
                   </li>
                   <li className="li_menu">
-                    <a className="link" href="/chinh-sach-doi-tra" title="Chính sách đổi trả">Chính sách đổi
-                      trả</a>
+                    <a className="link" onClick={() => navigate('/chinh-sach-doi-tra')} title="Chính sách đổi trả">Chính
+                      sách đổi trả</a>
                   </li>
                   <li className="li_menu">
-                    <a className="link" href="/chinh-sach-giao-hang" title="Chính sách giao hàng">Chính sách
-                      giao hàng</a>
+                    <a className="link" onClick={() => navigate('/chinh-sach-giao-hang')} title="Chính sách giao hàng">Chính
+                      sách giao hàng</a>
                   </li>
                 </ul>
               </div>
@@ -161,19 +159,19 @@ const Footer = () => {
                 </h4>
                 <p>
                   <span>Gọi mua hàng:</span>
-                  <a className='text-primary font-weight-bold' href='tel:1234 123 123'>1234 123 123</a>
+                  <a className='text-primary font-weight-bold' href='tel:19006750 '>19006750 </a>
                   <span>(8h-20h)</span>
                 </p>
                 <p>
                   <span>
                     Gọi bảo hành:</span>
-                  <a className='text-primary font-weight-bold' href='tel:1234 123 123 '>1234 123 123 </a>
+                  <a className='text-primary font-weight-bold' href='tel:19006750  '>19006750 </a>
                   <span>(8h-20h)</span>
                 </p>
                 <p>
                   <span>
                     Gọi khiếu nại:</span>
-                  <a className='text-primary font-weight-bold' href='tel:1234 123 123 '>1234 123 123 </a>
+                  <a className='text-primary font-weight-bold' href='tel:19006750  '>19006750 </a>
                   <span> (8h-20h)</span>
                 </p>
 
@@ -183,8 +181,8 @@ const Footer = () => {
                 <div className="trustbadge">
                   <a href="/public" target="_blank" title="Phương thức thanh toán">
                     <img className=" img-fluid" loading="lazy"
-                      src="//bizweb.dktcdn.net/100/419/628/themes/897067/assets/footer_trustbadge.jpg?1704435927037"
-                      alt="" width="246" height="53" />
+                         src="//bizweb.dktcdn.net/100/419/628/themes/897067/assets/footer_trustbadge.jpg?1704435927037"
+                         alt="" width="246" height="53"/>
                   </a>
                 </div>
               </div>

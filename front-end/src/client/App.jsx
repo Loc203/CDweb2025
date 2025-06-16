@@ -28,7 +28,12 @@ import StoreAddress from './pages/StoreAddress.jsx'
 import ForgotPasswordPage from './pages/ForgotPasswordPage.jsx'
 import ResetPasswordPage from './pages/ResetPasswordPage.jsx'
 import SearchResults from './components/SearchResults.jsx'
-
+import AboutUsPage from './pages/AboutUsPage.jsx'
+import SalesPolicyPage from './pages/SalesPolicyPage.jsx'
+import ReturnPolicyPage from './pages/ReturnPolicyPage.jsx'
+import DeliveryPolicyPage from './pages/DeliveryPolicyPage.jsx'
+import StoreSystemPage from './pages/StoreSystemPage.jsx'
+import OrderByPhonePage from './pages/OrderByPhonePage.jsx'
 function App() {
   return (
     <>
@@ -49,6 +54,12 @@ function App() {
           <Route path="/introduction" element={<IntroductionPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/store-address" element={<StoreAddress />} />
+          <Route path="/gioi-thieu" element={<AboutUsPage />} />
+          <Route path="/chinh-sach-ban-hang" element={<SalesPolicyPage />} />
+          <Route path="/chinh-sach-doi-tra" element={<ReturnPolicyPage />} />
+          <Route path="/chinh-sach-giao-hang" element={<DeliveryPolicyPage />} />
+          <Route path="/he-thong-cua-hang" element={<StoreSystemPage />} />
+          <Route path="/goi-dien-dat-hang" element={<OrderByPhonePage />} />
         </Routes>
         <Footer />
       </BrowserRouter>
