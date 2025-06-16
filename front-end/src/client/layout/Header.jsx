@@ -352,11 +352,11 @@ const Header = () => {
                       <span> Trang chủ</span>
                     </a>
                   </li>
-                  <li className="menu-item list-group-item">
-                    <a onClick={() => navigator(`/introduction`)} className="menu-item__link" title="Giới thiệu">
-                      <span> Giới thiệu</span>
-                    </a>
-                  </li>
+                  {/*<li className="menu-item list-group-item">*/}
+                  {/*  <a onClick={() => navigator(`/introduction`)} className="menu-item__link" title="Giới thiệu">*/}
+                  {/*    <span> Giới thiệu</span>*/}
+                  {/*  </a>*/}
+                  {/*</li>*/}
                   <li className="menu-item list-group-item">
                     <a onClick={() => navigator(`/products`)} className="menu-item__link" title="Quà tặng 08/03">
                       <span> Danh sách sản phẩm</span>

@@ -103,12 +103,12 @@ const AdminHeader = () => {
                             <span className="app-menu__label">Quản lý sản phẩm</span>
                         </a>
                     </li>
-                    <li style={{ color: 'white', cursor: 'pointer' }}>
-                        <a className={`app-menu__item ${activeMenu === 'discount' ? 'active' : ''}`} onClick={getDiscountManager}>
-                            <i className="app-menu__icon bx bxs-discount" />
-                            <span className="app-menu__label">Quản lý mã giảm giá</span>
-                        </a>
-                    </li>
+                    {/*<li style={{ color: 'white', cursor: 'pointer' }}>*/}
+                    {/*    <a className={`app-menu__item ${activeMenu === 'discount' ? 'active' : ''}`} onClick={getDiscountManager}>*/}
+                    {/*        <i className="app-menu__icon bx bxs-discount" />*/}
+                    {/*        <span className="app-menu__label">Quản lý mã giảm giá</span>*/}
+                    {/*    </a>*/}
+                    {/*</li>*/}
                     <li style={{ color: 'white', cursor: 'pointer' }}>
                         <a className={`app-menu__item ${activeMenu === 'order' ? 'active' : ''}`} onClick={getOrderManager}>
                             <i className="app-menu__icon bx bx-task" />
