@@ -28,7 +28,7 @@ import StoreAddress from './pages/StoreAddress.jsx'
 import ForgotPasswordPage from './pages/ForgotPasswordPage.jsx'
 import ResetPasswordPage from './pages/ResetPasswordPage.jsx'
 import SearchResults from './components/SearchResults.jsx'
-import GioiThieuPage from './pages/GioiThieuPage.jsx'
+import AboutUsPage from './pages/AboutUsPage.jsx'
 import SalesPolicyPage from './pages/SalesPolicyPage.jsx'
 import ReturnPolicyPage from './pages/ReturnPolicyPage.jsx'
 import DeliveryPolicyPage from './pages/DeliveryPolicyPage.jsx'
@@ -54,7 +54,7 @@ function App() {
           <Route path="/introduction" element={<IntroductionPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/store-address" element={<StoreAddress />} />
-          <Route path="/gioi-thieu" element={<GioiThieuPage />} />
+          <Route path="/gioi-thieu" element={<AboutUsPage />} />
           <Route path="/chinh-sach-ban-hang" element={<SalesPolicyPage />} />
           <Route path="/chinh-sach-doi-tra" element={<ReturnPolicyPage />} />
           <Route path="/chinh-sach-giao-hang" element={<DeliveryPolicyPage />} />

@@ -129,9 +129,9 @@ const Footer = () => {
                   <li className="li_menu">
                     <a className="link" onClick={() => navigate('/goi-dien-dat-hang')} title="Gọi điện đặt hàng">Gọi điện đặt hàng</a>
                   </li>
-                  <li className="li_menu">
-                    <a className="link" onClick={() => navigate('/xuat-hoa-don-dien-tu')} title="Xuất hoá đơn điện tử">Xuất hoá đơn điện tử</a>
-                  </li>
+                  {/*<li className="li_menu">*/}
+                  {/*  <a className="link" onClick={() => navigate('/xuat-hoa-don-dien-tu')} title="Xuất hoá đơn điện tử">Xuất hoá đơn điện tử</a>*/}
+                  {/*</li>*/}
                 </ul>
               </div>
               <div className="col-xs-12 col-md-6 col-lg-3 footer-click">

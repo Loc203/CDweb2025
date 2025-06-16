@@ -1,7 +1,7 @@
 import React from 'react';
 import Breadcrumb from '../components/Breadcrumb';
 
-const GioiThieuPage = () => {
+const AboutUsPage = () => {
   return (
       <div>
         <Breadcrumb page="Giới thiệu" />
@@ -53,4 +53,4 @@ const GioiThieuPage = () => {
   );
 };
 
-export default GioiThieuPage;
+export default AboutUsPage;
